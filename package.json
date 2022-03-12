@@ -48,6 +48,9 @@
     "testEnvironment": "node",
     "collectCoverage": true,
     "testResultsProcessor": "jest-sonar-reporter",
+    "coverageReporters":[
+      "lcov"
+      ],
     "coveragePathIgnorePatterns": [
       "/node_modules/",
       "/test/"

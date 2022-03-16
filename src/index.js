@@ -10,7 +10,7 @@ env.config();
 const { PORT, APP_PORT } = process.env;
 
 let corsOptions = {
-  origin: "https://oraculo-frontend.herokuapp.com",
+  origin: "https://oraculo-front-2022.herokuapp.com",
 };
 
 app.use(cors(corsOptions));

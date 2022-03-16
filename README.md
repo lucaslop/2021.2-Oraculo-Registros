@@ -16,9 +16,7 @@ A documentação do projeto pode ser acessada pelo nosso site em https://fga-eps
 ## Testes
 
 Todas as funções adicionadas nessa API devem ser testadas, o repositŕorio aceita até 10% do total de linhas não testadas. Para rodar os testes nesse repositŕio deve ser executado o comando:
-
-```bash
-yarn run db:up
+p
 yarn run db:migrate
 yarn run test
 ```
